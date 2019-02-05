@@ -13,3 +13,11 @@ In this case, 'clockService.py' is our application's name. In any other case, we
 ```bash
 export FLASK_APP='NEW APPLICATION NAME'
 ```
+
+For running the server from the console type:
+
+```
+flask run
+```
+
+To check remote and local times go to: http://127.0.0.1:5000/clocks.html on browser.
