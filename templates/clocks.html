@@ -1,0 +1,13 @@
+<p id="remote">Remote time: {{ remoteTime }}</p>
+<p id="local">Local time: </p>
+
+<script>
+var locTime = new Date();
+var hrsLocTime = locTime.getHours().toString();
+var minLocTime = locTime.getMinutes().toString();
+var secLocTime = locTime.getSeconds().toString();
+var localTime = hrsLocTime + ":";
+localTime += minLocTime + ":";
+localTime += secLocTime;
+document.getElementById("local").textContent += localTime;
+</script>
